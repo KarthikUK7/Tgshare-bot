@@ -105,7 +105,7 @@ async def _main(bot, update):
         return
     me = await bot.get_me()
     await update.reply_text(
-        f"**Here is Sharable Link of this file:** https://t.me/{me.username}?start={unique_idx.lower()}-{str(msg_id)", 
+        f"**Here is Sharable Link of this file:** https://t.me/{me.username}?start={unique_idx.lower()}-{str(msg_id)}", 
         True,
         reply_markup=InlineKeyboardMarkup([
             [InlineKeyboardButton('Sharing Link', url=f'https://t.me/{me.username}?start={unique_idx.lower()}-{str(msg_id)}')]
