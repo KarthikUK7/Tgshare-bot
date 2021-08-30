@@ -54,6 +54,8 @@ python3 main.py
 - `API_HASH` Your API Hash from my.telegram.org
 - `API_ID` Your API ID from my.telegram.org
 - `BOT_TOKEN` Your bot token from @BotFather
+- `TRACK_CHANNEL` Create new private/public channel and get it's id, startswith -100
+- `OWNER_ID`
 
 </details>
 
