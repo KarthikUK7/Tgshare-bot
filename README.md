@@ -55,7 +55,7 @@ python3 main.py
 - `API_ID` Your API ID from my.telegram.org
 - `BOT_TOKEN` Your bot token from @BotFather
 - `TRACK_CHANNEL` Create new private/public channel and get it's id, startswith -100
-- `OWNER_ID`
+- `OWNER_ID` If all: will working for all users (storing files) or fill with your telegram id so that only you can store the files.
 
 </details>
 
