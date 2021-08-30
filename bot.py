@@ -24,7 +24,7 @@ bot = Client('File-Sharing', api_id=APP_ID, api_hash=API_HASH, bot_token=BOT_TOK
 @bot.on_message(filters.command('start') & filters.private)
 async def _startfile(bot, update):
     if update.text == '/start':
-        await update.reply_text(f"I'm File-Sharing In @DHK_Movies!\nI can Store telegram files and get the sharing link To Users In Our Group!\n\n/help for more details...", True, reply_markup=InlineKeyboardMarkup(START_BUTTONS))
+        await update.reply_text(f"I'm File-Sharing Bot!\nI can Store telegram files and get the sharing link To Users In Our Group!\n\n/help for more details...", True, reply_markup=InlineKeyboardMarkup(START_BUTTONS))
         return
     up = await bot.get_messages(update.from_user.id, update.message_id)
     if len(update.command) != 2:
@@ -63,7 +63,7 @@ async def _startfile(bot, update):
 # Help msg
 @bot.on_message(filters.command('help') & filters.private)
 async def _help(bot, update):
-    await update.reply_text("Supported file types:\n\n- Video\n- Audio\n- Photo\n- Document\n- Sticker\n- GIF\n- Voice note\n- Video note\n\n If bot didn't respond, contact @marvelinns", True)
+    await update.reply_text("Supported file types:\n\n- Video\n- Audio\n- Photo\n- Document\n- Sticker\n- GIF\n- Voice note\n- Video note\n\n If bot didn't respond, contact @DHK_FEEDBACK_BOT", True)
 
 
 # Store file
