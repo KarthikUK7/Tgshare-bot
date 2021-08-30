@@ -38,7 +38,7 @@ git clone https://github.com/umeshnamo/Tgshare-bot/tree/main
 cd Tgshare-bot
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
-python3 main.py
+python3 bot.py
 ```
 
 </details>
