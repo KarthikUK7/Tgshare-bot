@@ -22,7 +22,7 @@ License -> https://github.com/umeshnamo/Tgshare-bot/blob/main/LICENSE
 <br/>
 
 <p align="left">
-  <a href="https://heroku.com/deploy?template=https://github.com/umeshnamo/Tgshare-bot/tree/main">
+  <a href="https://heroku.com/deploy?template=https://github.com/KarthikUK7/Tgshare-bot">
      <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
   </a>
 </p>
