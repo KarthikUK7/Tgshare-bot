@@ -9,7 +9,7 @@
   ],
   "success_url": "https://github.com/umeshnamo/Tgshare-bot",
   "website": "https://github.com/umeshnamo",
-  "repository": "https://github.com/umeshnamo/Tgshare-bot",
+  "repository": "https://github.com/KarthikUK7/Tgshare-bot",
   "env": {
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
